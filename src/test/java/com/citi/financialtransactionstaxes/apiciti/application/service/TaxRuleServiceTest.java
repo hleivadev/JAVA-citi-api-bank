@@ -17,11 +17,11 @@ import org.mockito.Mock;
 import static org.mockito.Mockito.when;
 import org.mockito.MockitoAnnotations;
 
+import com.citi.financialtransactionstaxes.apiciti.adapter.repository.TaxRuleRepository;
 import com.citi.financialtransactionstaxes.apiciti.domain.entity.TaxRule;
 import com.citi.financialtransactionstaxes.apiciti.exception.BadRequestException;
 import com.citi.financialtransactionstaxes.apiciti.exception.ConflictException;
 import com.citi.financialtransactionstaxes.apiciti.exception.ResourceNotFoundException;
-import com.citi.financialtransactionstaxes.apiciti.infrastructure.repository.TaxRuleRepository;
 
 class TaxRuleServiceTest {
 

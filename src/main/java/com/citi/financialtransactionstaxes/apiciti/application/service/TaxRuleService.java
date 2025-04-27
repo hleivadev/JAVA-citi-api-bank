@@ -6,11 +6,11 @@ import java.util.Optional;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 
+import com.citi.financialtransactionstaxes.apiciti.adapter.repository.TaxRuleRepository;
 import com.citi.financialtransactionstaxes.apiciti.domain.entity.TaxRule;
 import com.citi.financialtransactionstaxes.apiciti.exception.BadRequestException;
 import com.citi.financialtransactionstaxes.apiciti.exception.ConflictException;
 import com.citi.financialtransactionstaxes.apiciti.exception.ResourceNotFoundException;
-import com.citi.financialtransactionstaxes.apiciti.infrastructure.repository.TaxRuleRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

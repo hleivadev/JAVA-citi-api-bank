@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.citi.financialtransactionstaxes.apiciti.adapter.repository.TransactionRepository;
 import com.citi.financialtransactionstaxes.apiciti.domain.entity.Transaction;
-import com.citi.financialtransactionstaxes.apiciti.infrastructure.repository.TransactionRepository;
 
 @Configuration
 public class DatabaseSeeder {

@@ -1,4 +1,4 @@
-package com.citi.financialtransactionstaxes.apiciti.infrastructure.repository;
+package com.citi.financialtransactionstaxes.apiciti.adapter.repository;
 
 import java.math.BigDecimal;
 

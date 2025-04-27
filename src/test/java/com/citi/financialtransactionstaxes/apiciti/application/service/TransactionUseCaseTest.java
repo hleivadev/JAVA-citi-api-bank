@@ -15,13 +15,13 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import org.mockito.MockitoAnnotations;
 
+import com.citi.financialtransactionstaxes.apiciti.adapter.repository.TaxRuleRepository;
+import com.citi.financialtransactionstaxes.apiciti.adapter.repository.TransactionRepository;
 import com.citi.financialtransactionstaxes.apiciti.domain.dto.TransactionDTO;
 import com.citi.financialtransactionstaxes.apiciti.domain.dto.TransactionResponseDTO;
 import com.citi.financialtransactionstaxes.apiciti.domain.entity.TaxRule;
 import com.citi.financialtransactionstaxes.apiciti.domain.entity.Transaction;
 import com.citi.financialtransactionstaxes.apiciti.exception.BadRequestException;
-import com.citi.financialtransactionstaxes.apiciti.infrastructure.repository.TaxRuleRepository;
-import com.citi.financialtransactionstaxes.apiciti.infrastructure.repository.TransactionRepository;
 
 class TransactionUseCaseTest {
 
